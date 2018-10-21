@@ -310,7 +310,8 @@ a:focus {
     'Tiny ideas' just need some tiny styling.
 */
 #tiny {
-    width: 500px;
+    /*width: 500px;*/
+    width: 650px;
     text-align: center;
 }
 
