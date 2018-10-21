@@ -3,7 +3,7 @@
     position: absolute;
     top: 15px;
     left: 15px;
-    width: 260px;
+    width: 265px;
 }
 
 #droite-fixe {
@@ -55,11 +55,12 @@
 
 #raccourcis a {
     cursor: pointer;
+    padding: 2px;
 }
 
 .survol {
     background: rgba(255,255,255,1);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+    text-shadow: none;
     /*text-decoration: underline;*/
 }
 
@@ -94,17 +95,34 @@
 
 .cat-ia-wrapper {
     display: grid;
-    grid-template-columns: 180px 180px 180px 180px 180px;
+    grid-template-columns: 157px 157px 157px 157px 157px;
     grid-gap: 10px;
   }
 
 .cat-ia-box {
     border: 1px solid;
-    border-color: #444;
+    border-color: white;
     border-radius: 10px;
     padding: 20px;
     font-size: 18px;
+    height: 115px;
   }
+
+.cat-ia-box#python {
+    background: url('images/python_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+.cat-ia-box#api-slack {
+    background: url('images/slack_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+div.cat-ia-dashed {
+    border: 1px dashed;
+    border-color: white;
+}
 
   span.barre {
       text-decoration: line-through;
