@@ -85,6 +85,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
+    /*
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
@@ -92,6 +93,8 @@ body {
     background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    */
+    background: linear-gradient(#1f262f, #848688, #f5f4f4)
 }
 
 /*
@@ -255,6 +258,7 @@ a:focus {
 }
 
 #title .try {
+    color: white;
     font-size: 48px;
     position: absolute;
     top: -0.5em;
@@ -268,6 +272,7 @@ a:focus {
 }
 
 #title h1 {
+    color: white;
     font-size: 180px;
 
     -webkit-transform: translateZ(50px);
@@ -279,6 +284,10 @@ a:focus {
 
 #title .footnote {
     font-size: 32px;
+}
+
+#title .footnote sup {
+    color: white;
 }
 
 /*

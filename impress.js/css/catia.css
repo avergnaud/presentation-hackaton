@@ -127,3 +127,7 @@ div.cat-ia-dashed {
   span.barre {
       text-decoration: line-through;
   }
+
+  #imagination {
+    overflow-y: scroll;
+}

@@ -1,0 +1,1 @@
+/home/ubuntu/dev3/pycharm-community-2018.1.4/bin/pycharm.sh
