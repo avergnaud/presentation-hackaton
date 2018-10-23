@@ -131,3 +131,20 @@ div.cat-ia-dashed {
   #imagination {
     overflow-y: scroll;
 }
+
+img.schema {
+    width: 100%;
+}
+/* on a bien besoin de a.schema:hover et de schema:hover */
+a.schema, a.schema:hover, schema:hover {
+    background: none;
+}
+
+.speaker {
+    position: absolute;
+bottom: 0;
+right: 5px;
+text-shadow: none;
+color: black;
+font-size: 14px;
+}
