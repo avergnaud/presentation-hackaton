@@ -10,6 +10,7 @@ buildify()
   .concat(['src/lib/gc.js'])
   .concat(['src/lib/util.js'])
   .concat(['node_modules/metamask-logo/bundle.js'])
+  .concat(['src/lib/csi.min.js'])
   // Plugins from src/plugins
   .concat(['src/plugins/autoplay/autoplay.js',
            'src/plugins/blackout/blackout.js',
