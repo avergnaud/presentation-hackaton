@@ -1,1 +1,4 @@
 node_modules/
+# Files for editors and other tools
+/.brackets.json
+.idea/

@@ -119,6 +119,24 @@
     background-repeat: no-repeat;
 }
 
+.cat-ia-box#angular {
+    background: url('images/angular_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#jwt {
+    background: url('images/jwt_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#metamask {
+    background: url('images/metamask_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
 div.cat-ia-dashed {
     border: 1px dashed;
     border-color: white;
@@ -147,4 +165,13 @@ right: 5px;
 text-shadow: none;
 color: black;
 font-size: 14px;
+}
+
+.substep {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.substep-visible {
+    opacity: 1;
 }
