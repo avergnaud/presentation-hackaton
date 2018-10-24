@@ -146,10 +146,6 @@ div.cat-ia-dashed {
       text-decoration: line-through;
   }
 
-  #imagination {
-    overflow-y: scroll;
-}
-
 img.schema {
     width: 100%;
 }
@@ -174,4 +170,29 @@ font-size: 14px;
 
 .substep-visible {
     opacity: 1;
+}
+
+#imagination #messages {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 400px;
+    padding: 5px;
+    overflow-y: scroll;
+    margin-bottom: 50px;
+}
+
+#imagination #console {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#imagination #messages p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#imagination #console p {
+    color: black;
+    font-size: 12px;
 }
