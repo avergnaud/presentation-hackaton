@@ -1,0 +1,45 @@
+/*
+https://codepen.io/jdelia/pen/KrmvJw
+*/
+.cog-wheels {
+    margin: 2% auto;
+    width: 300px;
+    height: 300px;
+  }
+  
+  /*Rotate cogs*/
+  
+  .cog-blue{
+    transform-origin: 306.785px 190.5px;
+    animation: spin 10s linear infinite;
+    animation-delay: 0.8s;
+  }
+  
+  .cog-red {
+    transform-origin: 207.352px 357.835px;
+    animation: spin-reverse 10s linear infinite;
+    animation-delay: 0.8s;
+  }
+  
+  .cog-yellow {
+    transform-origin: 393.785px 409.5px;
+    animation: spin 10s linear infinite;
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes spin {
+    100% {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin-reverse {
+    100% {
+      -moz-transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  
