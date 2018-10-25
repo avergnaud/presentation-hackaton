@@ -1109,7 +1109,7 @@
 
 
 <!--
- [ cogs 01 ]
+ [ cogs 01 ] -->
    <g class= "substep active-only"
      id="processing-01"
      transform="matrix(0.26288211,0,0,0.26288211,659.57379,197.56966)"
@@ -1162,7 +1162,7 @@
     </g>
   </g>
 
--->
+
 
 <!-- step 03 -->
  <g class="substep"
@@ -1901,8 +1901,8 @@
 
 
 
-<!--
-[ cogs 02 ]
+
+<!--[ cogs 02 ]-->
 <g class="substep active-only"
      id="processing-02"
      transform="matrix(0.26288211,0,0,0.26288211,659.57379,197.56966)"
@@ -1958,7 +1958,7 @@
 
 
 
--->
+
 
 
 <!-- Step 07 -->

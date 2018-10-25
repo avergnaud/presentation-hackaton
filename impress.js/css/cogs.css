@@ -11,20 +11,20 @@ https://codepen.io/jdelia/pen/KrmvJw
   
   .cog-blue{
     transform-origin: 306.785px 190.5px;
-    animation: spin 10s linear infinite;
-    animation-delay: 0.8s;
+    animation: spin 5s linear infinite;
+    animation-delay: 0.3s;
   }
   
   .cog-red {
     transform-origin: 207.352px 357.835px;
-    animation: spin-reverse 10s linear infinite;
-    animation-delay: 0.8s;
+    animation: spin-reverse 5s linear infinite;
+    animation-delay: 0.3s;
   }
   
   .cog-yellow {
     transform-origin: 393.785px 409.5px;
-    animation: spin 10s linear infinite;
-    animation-delay: 0.8s;
+    animation: spin 5s linear infinite;
+    animation-delay: 0.3s;
   }
   
   @keyframes spin {
@@ -43,3 +43,17 @@ https://codepen.io/jdelia/pen/KrmvJw
     }
   }
   
+  .active-only.substep-visible {
+    -webkit-animation: fadeinout 3s linear forwards;
+    animation: fadeinout 3s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @keyframes fadeinout {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }

@@ -192,14 +192,6 @@ font-size: 14px;
     line-height: 36px;
 }
 
-.active-only {
-    opacity: 0;
-}
-
-.substep.active-only .substep-visible:last-of-type {
-    opacity: 1;
-}
-
 #imagination #messages {
     border: 1px solid;
     border-radius: 10px;
