@@ -108,6 +108,31 @@
     height: 115px;
   }
 
+  .cat-ia-box#java {
+      background: url('images/java.png');
+      background-size: 157px 157px;
+      background-repeat: no-repeat;
+  }
+
+  .cat-ia-box#kraken {
+      background: url('images/kraken_logo.png');
+      background-size: 157px 121px;
+      background-repeat: no-repeat;
+      background-position: center; 
+  }
+
+  .cat-ia-box#angularjs {
+      background: url('images/angular_logo.png');
+      background-size: 157px 157px;
+      background-repeat: no-repeat;
+  }
+
+  .cat-ia-box#d3 {
+      background: url('images/d3.jpg');
+      background-size: 157px 157px;
+      background-repeat: no-repeat;
+  }
+
 .cat-ia-box#python {
     background: url('images/python_logo.png');
     background-size: 157px 157px;
@@ -135,6 +160,14 @@
     background: url('images/metamask_logo.png');
     background-size: 157px 157px;
     background-repeat: no-repeat;
+}
+
+.cat-ia-box#pi {
+    border: none;
+    background: url('images/pi.jpg');
+    background-size: auto 157px;
+    background-repeat: no-repeat;
+    grid-column: span 2;
 }
 
 div.cat-ia-dashed {
