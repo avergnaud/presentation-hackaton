@@ -114,6 +114,19 @@
       background-repeat: no-repeat;
   }
 
+  .cat-ia-box#thorntail {
+      background: url('images/thorntail_logo.png');
+      background-size: 157px 125px;
+      background-repeat: no-repeat;
+      background-position: center; 
+  }
+
+  .cat-ia-box#jakarta {
+      background: url('images/jakarta_ee.png');
+      background-size: 157px 157px;
+      background-repeat: no-repeat;
+  }
+
   .cat-ia-box#kraken {
       background: url('images/kraken_logo.png');
       background-size: 157px 121px;
@@ -121,7 +134,7 @@
       background-position: center; 
   }
 
-  .cat-ia-box#angularjs {
+  .cat-ia-box#angularjs, .cat-ia-box#angular6 {
       background: url('images/angular_logo.png');
       background-size: 157px 157px;
       background-repeat: no-repeat;
@@ -135,6 +148,50 @@
 
 .cat-ia-box#python {
     background: url('images/python_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#mongo {
+    background: url('images/mongodb_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#web3 {
+    background: url('images/web3.jpg');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#typescript {
+    background: url('images/typescript_logo.png');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#es6 {
+    background: url('images/es6.jpg');
+    background-size: 157px 157px;
+    background-repeat: no-repeat;
+}
+
+.cat-ia-box#node {
+    background: url('images/nodejs_logo.png');
+    background-size: 157px 96px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.cat-ia-box#express {
+    background: url('images/express_logo.png');
+    background-size: 157px 56px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.cat-ia-box#google {
+    background: url('images/google_cloud.jpg');
     background-size: 157px 157px;
     background-repeat: no-repeat;
 }
@@ -163,10 +220,10 @@
 }
 
 .cat-ia-box#pi {
-    border: none;
     background: url('images/pi.jpg');
     background-size: auto 157px;
     background-repeat: no-repeat;
+    background-position: center; 
     grid-column: span 2;
 }
 
