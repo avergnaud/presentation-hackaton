@@ -1,3 +1,12 @@
+
+img.background-fixe {
+    width:60%; /* you can use % */
+    height: auto;
+    opacity: 0.4;
+    position: absolute;
+    left: 280px;
+}
+
 #gauche-fixe {
     z-index: 1000;
     position: absolute;
@@ -253,6 +262,7 @@ color: black;
 font-size: 14px;
 }
 
+/* Transitions avec des sous-étapes par slide */
 .substep {
     opacity: 0;
     transition: opacity 1s;
@@ -338,4 +348,10 @@ font-size: 14px;
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, -60px); }
     to   { transform: translate(0, -0px); }
+}
+
+img.resize {
+    width:10000; /* you can use % */
+    height: auto;
+    opacity: 0.4;
 }
