@@ -254,12 +254,13 @@ a.schema, a.schema:hover, schema:hover {
 }
 
 .speaker {
-    position: absolute;
+    /* position: absolute;
 bottom: 0;
 right: 5px;
 text-shadow: none;
 color: black;
-font-size: 14px;
+font-size: 14px; */
+display:none;
 }
 
 /* Transitions avec des sous-étapes par slide */
