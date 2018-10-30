@@ -389,3 +389,7 @@ h2.authent {
 .strike {
     text-decoration: line-through; 
 }
+
+#img-catia-background {
+    pointer-events:none
+}
