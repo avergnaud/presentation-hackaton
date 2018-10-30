@@ -71,6 +71,8 @@ img.background-fixe {
     background: rgba(255,255,255,1);
     text-shadow: none;
     /*text-decoration: underline;*/
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .ascii_art {

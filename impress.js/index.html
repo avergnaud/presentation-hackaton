@@ -136,26 +136,30 @@
         </div>
         <a href="#/accueil">Accueil</a>
         <ol>
+            <li><a href="#/equipe">L'équipe</a></li>
             <li>
-                <a href="#/le-projet">Le projet</a>
+                    <a href="#/title">Le smart-dev</a>
                 <ul>
-                    <li><a href="#/equipe">L'équipe</a></li>
-                    <li><a href="#/title">Le contexte</a></li>
+                    <li><a href="#/le-projet">Le projet : Catia</a></li>
+                    <li><a href="#/la-blockchain">La blockchain</a></li>
                     <li><a href="#/technos">Les technos</a></li>
                 </ul>
             </li>
-            <li><a href="#/bot-macd">Le bot MACD</a>
+            <li><a href="#/bot-macd">Catia : Objectifs</a>
                 <ul>
+                    <li><a href="#/bot-macd-schema">Marché / Indicateurs / I.A. </a></li>
                     <li><a href="#/big">Démo</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#/authentification">Authentification web3</a>
-                <ul><li><a href="#/ing">Démonstration</a></li></ul>
-                <ul><li><a href="#/schemas-authent">Récapitulatif</a></li></ul>
+                <a href="#/authentification">Inscription / Authentification</a>
+                <ul>
+                    <li><a href="#/ing">Démonstration</a></li>
+                    <li><a href="#/schema-register">Inscription</a></li>
+                    <li><a href="#/schema-authent">Authentification</a></li>
+                </ul>
             </li>
-            
-            <li><a href="#/imagination">Démo Pilotage à la voix</a></li>
+            <li><a href="#/imagination">Pilotage à la voix</a></li>
             <li><a href="#/architecture">Architecture cible</a></li>
         </ol>
     </div>
@@ -215,6 +219,7 @@
     <!--
         MAXIME F :
     -->
+    <!-- L'equipe -->
     <div id="equipe" class="step slide" data-x="3250" data-y="-700" data-scale="2">
         <img src="images/niort-1.png" />
         L'équipe
@@ -241,7 +246,7 @@
             <div class="speaker">Maxime F</div>
         </div>
 
-    <div class="step slide" data-x="1950" data-y="3000" data-scale="1" data-rotate="-90">
+    <div id="la-blockchain" class="step slide" data-x="1950" data-y="3000" data-scale="1" data-rotate="-90">
         <q><strong>Blockchain</strong></q><br>
         <p class="substep">- Registre de transactions</p><br>
         <p class="substep">- Crypto-monnaies</p><br>
@@ -349,7 +354,7 @@
         <div class="speaker">Bruno</div>
     </div>
 
-    <div class="step slide-pic" data-x="9750" data-y="7750" data-rotate="90">
+    <div id="bot-macd-schema" class="step slide-pic" data-x="9750" data-y="7750" data-rotate="90">
        <h2>Alertes MACD</h2>
        <div data-include="./schemas/alerte-macd.svg"></div>
     </div>
@@ -427,13 +432,13 @@
     </div>
 
     
-    <div id="schemas-authent" class="step slide-pic" data-rotate="270" data-x="1350" data-y="8500" data-z="0" data-scale="1">
+    <div id="schema-register" class="step slide-pic" data-rotate="270" data-x="1350" data-y="8500" data-z="0" data-scale="1">
         <h2>Inscription</h2>
         <div data-include="./schemas/web3-inscription.svg"></div>
         <div class="speaker">Maxime C</div>
     </div>
 
-    <div class="step slide-pic" data-rotate="270" data-x="1350" data-y="7400" data-z="0" data-scale="1">
+    <div id="schema-authent" class="step slide-pic" data-rotate="270" data-x="1350" data-y="7400" data-z="0" data-scale="1">
         <h2>Authentification</h2>
         <div data-include="./schemas/web3-authentification.svg"></div>
         <div class="speaker">Maxime C</div>
@@ -471,8 +476,6 @@
 <div id="img-catia-background" class= "step" data-x="000" data-Y="4500" data-z = "-500" data-scale="8">
     <img src="images/logo-catia-imageseule.png" class="resize" />
 </div> 
-
-
 
 <!--
     This is a UI plugin. You can read more about plugins in src/plugins/README.md.
