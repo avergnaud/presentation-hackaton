@@ -327,7 +327,7 @@ a:focus {
 /*
     This step has some animated text ...
 */
-#ing { width: 500px }
+/* #ing { width: 500px } */
 
 /*
     ... so we define display to `inline-block` to enable transforms and
@@ -369,7 +369,9 @@ a:focus {
     -ms-transition-delay:     0.25s;
     -o-transition-delay:      0.25s;
     transition-delay:         0.25s;
+
 }
+
 
 /*
     ... and 'scaling' to scale down after another quarter of a second.

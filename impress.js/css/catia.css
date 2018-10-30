@@ -393,3 +393,46 @@ h2.authent {
 #img-catia-background {
     pointer-events:none
 }
+
+
+
+#ing b {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+/*
+    ... and we want 'positioning` word to move up a bit when the step gets
+    `present` class ...
+*/
+.positioning2 {
+    -webkit-transform: translateX(100px);
+    -moz-transform:    translateX(100px);
+    -ms-transform:     translateX(100px);
+    -o-transform:      translateX(100px);
+    transform:         translateX(100px);
+}
+
+/*
+    ... 'rotating' to rotate a quarter of a second later ...
+*/
+#ing.present .rotating2 {
+    margin-top: 10px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform:    rotate(-5deg);
+    -ms-transform:     rotate(-5deg);
+    -o-transform:      rotate(-5deg);
+    transform:         rotate(-5deg);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
+
+    margin-bottom: 30px;
+}
